@@ -1,0 +1,125 @@
+.mystyle {
+    font-size: 10pt; 
+    font-family: Arial;
+    border-collapse: collapse; 
+    text-align: center;
+    width: 320px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 15px;
+    
+}
+
+.mystyle td:nth-child(1n) {
+    column-width: 50px;
+}
+.mystyle td:nth-child(2n) {
+    column-width: 100px;
+}
+td:last-child {
+    /* Make the last column smaller */
+    width: 40px; /* Adjust as needed */
+  }
+
+
+.mystyle td:first-child {
+    column-width: 100px;
+    background-color: #6B8068;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+
+.mystyle th:first-child { 
+	background-color: white;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.mystyle tr,td {
+    padding: 5px;
+    border: 1px solid #6B8068;
+}
+.mystyle td {
+    padding: 5px;
+    border-right: 1px solid #6B8068;
+}
+.mystyle th {
+    padding: 5px;
+    border-right: 1px solid #6B8068;
+}
+.mystyle th:nth-child(1n) {
+    column-width: 200px;
+}
+
+.mystyle th {
+    background-color: #6B8068;
+    color: white;
+    border-bottom: 1px solid #6B8068;
+}
+
+.mystyle html {
+    height: 500px;
+}
+
+
+
+.light .mystyle .positivo {
+    color: green;
+}
+.dark .mystyle .positivo {
+    color: #3ba519;
+}
+.mystyle .negativo {
+    color: #fd1f2a;
+}
+
+.mystyle .igual {
+    color: black;
+}
+
+
+
+.dark {
+    background-color: #14202b;
+    color: white;
+}
+
+.dark td {
+    padding: 5px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.dark th {
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background-color: #14202b;
+    border-top: 0.1px solid #14202b;
+	border-left: 0.1px solid #14202b;
+    border-right: 0.1px solid #14202b;
+}
+
+.dark a {
+  color: white;
+}
+
+.dark th:first-child { 
+	background-color: #14202b;
+	border-top: 0.1px solid #14202b;
+	border-left: 0.1px solid #14202b;
+    border-right: 0.1px solid #14202b;
+}
+
+.dark .igual {
+    color: white;
+}
+
+#mensajeForm {
+    position: relative;
+    width: 200px;
+    bottom: 0;
+    margin-top: 5px;
+    padding-bottom: 100px;
+    padding-left: 1%;
+} 
+
